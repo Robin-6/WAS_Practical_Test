@@ -1,0 +1,19 @@
+{
+  "completed": "2023-03-21T13:23:35.679507Z",
+  "periodic": true,
+  "started": "2023-03-21T13:23:20.261711Z",
+  "versions": [
+    {
+      "filename": "wheel-0.40.0-py3-none-any.whl",
+      "found_date": "2023-03-21T13:23:23.627335Z",
+      "release_date": "2023-03-14T15:10:00.000000Z",
+      "source": "periodic"
+    },
+    {
+      "filename": "wheel-0.38.4-py3-none-any.whl",
+      "found_date": "2023-03-21T13:23:30.526831Z",
+      "release_date": "2022-11-09T20:43:49.000000Z",
+      "source": "periodic"
+    }
+  ]
+}
