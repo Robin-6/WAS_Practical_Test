@@ -1,14 +1,28 @@
 <!DOCTYPE html>
 <head>
+    <style>
+        h1 {text-align: center;}
+        body {background-color: yellow;}
+    </style>
     <title>School News</title>
 </head>
 
 <body>
     <h1>School News</h1>
     <div>
-        {{ message }}
+
     </div>
     <div>
-        This is where I'd put a link if I needed to
+        {% if pages %}
+            <div>
+                {% for page in pages %}
+                    <h2>{{ page.title }}</h2>
+                    <p>by {{ page.author}} - {{ page.date }}</p>
+                    <p>{{ page.text }}</p>
+                {% endfor %}
+            </div>
+        {% else %}
+            <strong>There is no news yet, a superuser can add news stories/pages.</strong>
+        {% endif %}
     </div>
 </body>
